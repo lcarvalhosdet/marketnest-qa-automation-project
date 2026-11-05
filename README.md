@@ -41,7 +41,7 @@ Sign in, close the browser, then `npm run test:account`. Cart tests empty the ca
 - `src/utils`: price/delivery/catalog helpers (`tests/unit`)
 - `tests/e2e`: guest browser specs
 - `tests/account`: signed-in specs
-- `docs/`: QA notes, bug reports, screenshots, PDF
+- `docs/`: QA cycle notes, bug write-ups, PDF export, screenshots in `docs/evidence/`
 
 The demo catalog is shared. Tests read products from the page instead of hard-coded ids.
 
@@ -57,7 +57,7 @@ CI (`.github/workflows/playwright.yml`) runs lint, typecheck, format check and `
 
 ## Known bugs
 
-QA cycle: [docs/qa-cycle-2026-11-04.md](docs/qa-cycle-2026-11-04.md). Full write-ups: [docs/bug-reports.md](docs/bug-reports.md). PDF with screenshots: [docs/bugs.pdf](docs/bugs.pdf).
+QA cycle: [docs/qa-cycle-2026-11-04.md](docs/qa-cycle-2026-11-04.md). Full write-ups: [docs/bug-reports.md](docs/bug-reports.md) (also [docs/bugs.pdf](docs/bugs.pdf)). Screenshots: [docs/evidence/](docs/evidence/).
 
 | ID | Severity | Bug | Where | Automated |
 | --- | --- | --- | --- | --- |
