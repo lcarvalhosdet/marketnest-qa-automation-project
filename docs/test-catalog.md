@@ -67,14 +67,14 @@ catalog does not have the data they need (e.g. no out-of-stock product).
 
 ### `e2e/cookie-consent.spec.ts`
 
-| Test                                                                        | Status    |
-| --------------------------------------------------------------------------- | --------- |
-| Cookie consent › loads nothing from other sites before consent  | ✓         |
-| Cookie consent › stores no cookies or local data before consent | ✓         |
-| Cookie consent › offers both choices on the first layer, side by side       | ✓         |
-| Cookie consent › "Reject non-essential" is remembered on the next pages     | ✘ BUG-003 |
-| Cookie consent › "Reject non-essential" sets no optional cookies            | ✓         |
-| Cookie consent › "Accept all" is remembered on the next pages               | ✓         |
+| Test                                                                    | Status    |
+| ----------------------------------------------------------------------- | --------- |
+| Cookie consent › loads nothing from other sites before consent          | ✓         |
+| Cookie consent › stores no cookies or local data before consent         | ✓         |
+| Cookie consent › offers both choices on the first layer, side by side   | ✓         |
+| Cookie consent › "Reject non-essential" is remembered on the next pages | ✘ BUG-003 |
+| Cookie consent › "Reject non-essential" sets no optional cookies        | ✓         |
+| Cookie consent › "Accept all" is remembered on the next pages           | ✓         |
 
 ### `e2e/delivery-estimate.spec.ts`
 

@@ -9,12 +9,12 @@
 - **Browsers:** Chromium desktop (1280x720) and iPhone 13 viewport. Locale en-US, time zone America/New_York. Firefox/WebKit not run this cycle.
 - **How:** manual exploration + Playwright. Signed-in findings used a test account with a fake address. No order placed.
 
-| Severity | Count |
-| --- | --- |
-| Critical | 2 |
-| High | 10 |
-| Medium | 9 |
-| Low | 4 |
+| Severity  | Count  |
+| --------- | ------ |
+| Critical  | 2      |
+| High      | 10     |
+| Medium    | 9      |
+| Low       | 4      |
 | **Total** | **25** |
 
 Main blockers: consent / privacy gaps (BUG-003 to BUG-007, BUG-017), wrong money on options / tax / fee / Express (BUG-012, BUG-018, BUG-019, BUG-022), search 500 on common characters (BUG-009).
@@ -186,8 +186,7 @@ A control reopens the choice at any time.
 
 **Description:**
 
-The "Terms of Service" link (sign-up and footer) points to /terms, which returns
-404. Sign-up requires agreeing to the Terms and Privacy Policy. Checkout says the
+The "Terms of Service" link (sign-up and footer) points to /terms, which returns 404. Sign-up requires agreeing to the Terms and Privacy Policy. Checkout says the
 same. Accounts are created against terms that are not published.
 
 **Steps to reproduce:**
