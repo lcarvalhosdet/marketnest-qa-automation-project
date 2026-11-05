@@ -35,7 +35,7 @@ export class ProductCard {
     return `${await this.productId()} ${await this.title.innerText()}`;
   }
 
-    async readPricing(): Promise<DisplayedPricing> {
+  async readPricing(): Promise<DisplayedPricing> {
     const [price, compareAtPrice, discountBadge] = await Promise.all([
       this.price.innerText(),
       this.compareAtPrice.allInnerTexts(),

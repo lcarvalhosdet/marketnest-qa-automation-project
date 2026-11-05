@@ -1,4 +1,3 @@
-
 export interface DisplayedPricing {
   price: number;
   compareAtPrice?: number;
